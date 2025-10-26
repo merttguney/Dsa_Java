@@ -1,4 +1,4 @@
-package w4;
+package w4.MainLab;
 
 public class MainLab {
     public static void main(String[] args) {

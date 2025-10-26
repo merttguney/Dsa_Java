@@ -1,4 +1,4 @@
-package w4;
+package w4.Main;
 
 public class Main {
     public static void main(String[] args) {
