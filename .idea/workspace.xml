@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df8c5bf-30f2-488d-862e-1ce6d3b8fb67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/w4/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w4/MainLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/w4/MainLab/MainLab.java" afterDir="false" />
+    <list default="true" id="9df8c5bf-30f2-488d-862e-1ce6d3b8fb67" name="Changes" comment="refactor: separate Main and MainLab packages to fix duplicate class errors">
+      <change afterPath="$PROJECT_DIR$/src/w5/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w5/MainLab/MainLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w5/forMidterm/palindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w5/forMidterm/removeTargetOccurences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w5/forMidterm/starPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w6/Main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w6/MainLab/MainLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/w4/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/w4/Main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,10 @@
     &quot;accountId&quot;: &quot;7fdae2c6-c781-439c-885d-aa04d52bbc0d&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -45,24 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MainLab.executor": "Run",
-    "Application.Recursion_LL_len_sum_examples.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainLab.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion_LL_len_sum_examples.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Recursion_LL_len_sum_examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="w4_fromVideos.Recursion_LL_len_sum_examples" />
@@ -99,11 +109,40 @@
       <option name="presentableId" value="Default" />
       <updated>1761395922549</updated>
       <workItem from="1761395923860" duration="301000" />
-      <workItem from="1761396233511" duration="4508000" />
+      <workItem from="1761396233511" duration="4816000" />
+      <workItem from="1761750009333" duration="5938000" />
+      <workItem from="1761861055234" duration="7019000" />
+      <workItem from="1762420620910" duration="976000" />
+      <workItem from="1762437305616" duration="4554000" />
+      <workItem from="1762979870954" duration="8161000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor: separate Main and MainLab packages to fix duplicate class errors">
+      <option name="closed" value="true" />
+      <created>1761491733836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761491733836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: separate Main and MainLab packages to fix duplicate class errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: separate Main and MainLab packages to fix duplicate class errors" />
   </component>
 </project>
