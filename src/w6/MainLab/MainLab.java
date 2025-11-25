@@ -16,6 +16,7 @@ public class MainLab {
         System.out.println(root.right.data);
         System.out.println(root.right.right.data);
 
+
         BT Tree = new BT();
 
         System.out.println("\nPre Order Print Results: ");

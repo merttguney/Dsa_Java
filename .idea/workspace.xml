@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df8c5bf-30f2-488d-862e-1ce6d3b8fb67" name="Changes" comment="refactor: separate Main and MainLab packages to fix duplicate class errors">
-      <change afterPath="$PROJECT_DIR$/src/w5/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w5/MainLab/MainLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w5/forMidterm/palindromeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w5/forMidterm/removeTargetOccurences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w5/forMidterm/starPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w6/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w6/MainLab/MainLab.java" afterDir="false" />
+    <list default="true" id="9df8c5bf-30f2-488d-862e-1ce6d3b8fb67" name="Changes" comment="refactor: All course and work codes, including Week 6, have been completed. Any missing information in the examples must be completed.">
+      <change afterPath="$PROJECT_DIR$/src/w7/MainLab/MainLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w7/mainFridayOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w8Midterm2_Prep/Question_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w8Midterm2_Prep/Question_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w8Midterm2_Prep/Question_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/w8Midterm2_Prep/Question_6/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/w4/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/w4/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/w6/MainLab/MainLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/w6/MainLab/MainLab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +41,10 @@
     &quot;accountId&quot;: &quot;7fdae2c6-c781-439c-885d-aa04d52bbc0d&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -59,6 +58,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainLab.executor&quot;: &quot;Run&quot;,
     &quot;Application.Recursion_LL_len_sum_examples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainFridayOffice.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -114,7 +114,10 @@
       <workItem from="1761861055234" duration="7019000" />
       <workItem from="1762420620910" duration="976000" />
       <workItem from="1762437305616" duration="4554000" />
-      <workItem from="1762979870954" duration="8161000" />
+      <workItem from="1762979870954" duration="19009000" />
+      <workItem from="1763378015527" duration="2283000" />
+      <workItem from="1763484574386" duration="9260000" />
+      <workItem from="1764059332361" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: separate Main and MainLab packages to fix duplicate class errors">
       <option name="closed" value="true" />
@@ -124,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761491733836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor: All course and work codes, including Week 6, have been completed. Any missing information in the examples must be completed.">
+      <option name="closed" value="true" />
+      <created>1763103594859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763103594859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: separate Main and MainLab packages to fix duplicate class errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: separate Main and MainLab packages to fix duplicate class errors" />
+    <MESSAGE value="refactor: All course and work codes, including Week 6, have been completed. Any missing information in the examples must be completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: All course and work codes, including Week 6, have been completed. Any missing information in the examples must be completed." />
   </component>
 </project>
